@@ -1,0 +1,129 @@
+body
+{
+	*background: url (img/tlo.png);
+	background-color: #D9D9F3;
+	font-family: 'Lato', sans-serif;
+	font-size:20px;
+	margin: 0 !important;
+	
+	
+}
+#wrapper
+{
+	width:100%;
+	
+}
+
+#header
+{
+	witdh:100%;
+	padding: 40px 0;
+	
+}
+#logo
+{
+	width: 850px;
+	font-size:50px;
+	color:#00009c;
+	margin-left: auto;
+	margin-right:auto;
+	text-align:center;
+	
+}
+#nav
+{
+	width:100%;
+	padding:10px 0;
+	background-color:#7093DB;
+	text-align:center;
+	border-top: 1px solid #00009c;
+	border-bottom: 1px solid #00009c;
+	
+	
+}
+#content{
+	
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:justify;
+	
+}
+#footer
+{
+	text-align: center;
+	background-color:#7093DB;
+	padding: 30px;
+	
+	
+}
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index:100;
+	
+	
+}
+
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 20px;
+	height:38px;
+	line-height:200%;
+	display: inline-block;
+	
+	
+}
+
+ol a
+{
+	color: #00009c;
+	text-decoration: none;
+	display: block;
+}
+
+ol > li
+{
+	float:left;
+	width:150px;
+	height:40px;
+	border-right:1px dashed  #D9D9F3;
+}
+
+ol >li:first-child
+{
+	 border-left:1px dashed  #D9D9F3;
+}
+
+ol >li:hover
+{
+	background-color:#D9D9F3;
+}
+
+ol > li >ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 40px;	
+}
+ol> li > ul > li
+{
+	background-color:#7093DB;
+	position: relative;
+	z-index: 100;
+	border-top: 1px dashed #D9D9F3;
+}
+ol> li > ul > li:hover
+{
+	background-color:#D9D9F3;
+}
+
+
+
